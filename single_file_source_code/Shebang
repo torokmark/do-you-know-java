@@ -1,0 +1,9 @@
+#!/home/torokm/munka/prgz/java/jdk-11.0.1/bin/java --source 10
+
+class Shebang {
+    public static void main(String[] args) {
+        var i = 10; 
+        System.out.println("Shebangs! Shebangs!");
+        System.out.println("Num of arguments: " + args.length);
+    }
+}
