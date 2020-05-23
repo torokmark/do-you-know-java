@@ -1,5 +1,8 @@
 
 record Person(String name, int age) implements Comparable<Person> {
+
+    // private String address; // does not compile, it must be static
+
     Person() {
         this("default", 0);
     }
